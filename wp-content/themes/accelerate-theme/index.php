@@ -13,8 +13,7 @@
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 1.0
  */
-
-get_header(); ?>
+get_header(); ?>	
 	<!-- BLOG PAGE -->
 	<section class="blog-page">
 		<div class="site-content">
