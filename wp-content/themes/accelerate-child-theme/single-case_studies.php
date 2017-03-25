@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying case studies
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -11,13 +11,13 @@
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 1.0
  */
-$size = "full";
 
 get_header(); ?>
 
 	<div id="primary" class="site-content">
 	<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post();
+		
 			
 	$services = get_field('services'); 		
 	$client = get_field('client');	
@@ -42,22 +42,20 @@ get_header(); ?>
 				
 				<div class="case-study-images">
 				<?php if($image_1) { ?>
-				<img src"<?php echo wp_get_attachment_image( $image_1, $size ); ?>" />
+				<?php echo wp_get_attachment_image( $image_1, $size ); ?>
 				<?php } ?>
 				
 				<?php if($image_2) { ?>
-				<img src"<?php echo wp_get_attachment_image( $image_2, $size ); ?>" />
+				<?php echo wp_get_attachment_image( $image_2, $size ); ?> 
 				<?php } ?>
 				
 					<?php if($image_3) { ?>
-				<img src"<?php echo wp_get_attachment_image( $image_3, $size ); ?>" />
+				<?php echo wp_get_attachment_image( $image_3, $size ); ?> 
 				<?php } ?>
 				
 				
 				
-				<img src="<?php echo $image_1; ?>" />
-				<img src="<?php echo $image_2; ?>" />
-				<img src="<?php echo $image_3; ?>" />
+				
 				
 				
 			<?php endwhile; // end of the loop. ?>
