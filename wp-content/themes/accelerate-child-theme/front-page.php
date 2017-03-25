@@ -26,37 +26,49 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 		
 
-		
-		
-		
 	</div><!-- .container -->
 </section><!-- .home-page -->
 
+
 <section class="featured-work">
-	
-		<div class="site-content">
-	
-	
-	<h4>Featured Work</h4>
-	 <?php query_posts('posts_per=page=3&post_type=case_studies'); ?>
-     <?php while ( have_posts() ) : the_post(); 
-	$image_1= get_field("image_1");
-	$size = "medium";
-	
-	?>
+
+	<div class="site-content">
+	  
+   <h4>Featured Work</h4>
+       
+        
+
+   
+   <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
+     <?php while ( have_posts() ) : the_post();
+		
+		$image_1 = get_field("image_1");
+		//$size = "medium"; ?>
+    <p>Test 2 sentence.</p>
+
+    
+     <figure>
+     	
+     	<?php echo wp_get_attachment_image( $image_1, $medium ); ?>
+     	
+     	
+     	
+     </figure>
+     
       
-      <figure>
-      	
-      	<?php echo wp_get_attachment_image($image_1, $size); ?>
-      	 </figure>
-       <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-         
+		<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+       
+      
      <?php endwhile; ?> 
     <?php wp_reset_query(); ?>
+   </div>
     
-    </div>
+
+ 
 	
 </section>
+
+
 	
 
 <section class="recent-posts">
