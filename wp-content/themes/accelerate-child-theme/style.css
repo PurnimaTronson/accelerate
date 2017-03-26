@@ -173,11 +173,15 @@ aside.case-study-sidebar {
 	
 }
 
-
+aside.case-study-sidebar h6 {
+	
+font-weight: bold;
+	
+	
+}
 div.case-study-images{
 	
-	float: left;
-	width: 606px;
+float: right;
 	
 	
 }
@@ -197,8 +201,28 @@ div.case-study-images img{
 section.featured-work{
 	
 	
-	background-color: red;
 
+
+	
+	
+	
+}
+
+
+
+li.individual-featured-work{
+	
+	list-style-type: none;
+	
+	
+}
+
+
+
+div.site-content h4{
+	
+	text-transform: uppercase;
+	text-align: center;
 	
 	
 	

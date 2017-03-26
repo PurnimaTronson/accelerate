@@ -47,18 +47,11 @@ get_header(); ?>
       <li class="individual-featured-work">
       <figure>
       	<?php echo wp_get_attachment_image($image_1, $size); ?>	
-      
       </figure>
       
-       <h6><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
+       <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
        <?php the_excerpt(); ?> 
 			</li>
-
-    
-    
-    
-     
-
       
      <?php endwhile; ?> 
     <?php wp_reset_query(); ?>
