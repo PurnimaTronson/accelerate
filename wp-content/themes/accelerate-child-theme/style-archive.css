@@ -254,43 +254,15 @@ margin: 0px 15%;
 	
 }
 
-aside.case-study-sidebar h2 a{
+aside.case-study-sidebar{
 	
-
-font-weight: 100;	
-	
-}
-
-aside.case-study-sidebar p a:hover{
-	
-
-color: #24890d;;	
-	
-}
-
-
-
-
-.case-study-archive{
-	
-	
-	float: left;
-	
-}
-
-
-
-.case-study-archive aside{
-	
-	
-	width: 300px;
-	
-}
-
-
-div.case-study-images img{
 
 	
 	
 }
 
+aside.case-study-sidebar img{
+	
+
+	
+}

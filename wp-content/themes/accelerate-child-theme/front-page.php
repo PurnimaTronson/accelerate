@@ -51,7 +51,6 @@ get_header(); ?>
       </figure>
       
        <h6><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
-       <?php the_excerpt(); ?> 
 			</li>
 
     
