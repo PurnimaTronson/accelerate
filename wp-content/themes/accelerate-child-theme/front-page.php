@@ -29,10 +29,9 @@ get_header(); ?>
 	</div><!-- .container -->
 </section><!-- .home-page -->
 
-
-<section>
-	
-	<div class="featured-work">
+		<section>
+		
+			<div class="featured-work">
 		
 		<ul class="homepage-featured-work">
 		<div class="site-content">
@@ -54,10 +53,6 @@ get_header(); ?>
 			</li>
 
     
-    
-    
-     
-
       
      <?php endwhile; ?> 
     <?php wp_reset_query(); ?>

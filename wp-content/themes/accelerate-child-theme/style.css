@@ -294,3 +294,56 @@ div.case-study-images img{
 	
 }
 
+
+/*Contact Form*/
+
+h2,p{
+	
+		margin: 0px 0%;
+
+	
+	
+	
+}
+
+#nf-form-1-cont.nf-form-cont{
+	
+	margin: 0px 15%;
+	
+	
+}
+
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: #45ab9d; color: white;
+	margin: 4px 10px;
+	padding: .75em 3.15em;
+	float: right;
+}
+
+.name-container {
+	display: inline;
+	float:left;
+	width: 45%;
+	margin-right: 20px;
+}
+.email-container {
+	display: inline;
+	width: 45%;
+}
+
+
+
+.form label {
+	font-size: 14px;
+}
+
+#nf-field-3-wrap{
+	
+	width: 100%;
+
+	
+}
+
