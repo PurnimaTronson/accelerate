@@ -347,3 +347,80 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	
 }
 
+
+/*About Services*/
+
+
+.about-hero{
+	
+	color: #fff;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 100;
+	margin: 0% 15%;
+	
+	
+}
+
+
+.about-hero span{
+	
+	color: #45ac9d;
+	
+}
+
+.individual-services{
+	
+	margin-top: 1em;
+	
+	
+}
+
+
+.individual-services h2{
+	
+	font-weight: 100;
+	padding-bottom: 1.5em;
+	
+	
+}
+
+.individual-services p{
+	width: 60%;
+	font-weight: lighter;
+	font-size: 16px;
+	line-height: 28px;
+	color: #3b3b3b;
+	float: right;
+
+	
+}
+
+
+
+.our-services p{
+	
+	margin: 0 15%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 28px;
+	
+	
+}
+
+.contact-button{
+	
+	
+	border-top: 1px solid #ccc;
+	margin: 0% 23%;
+}
+
+
+.contact-button li{
+	
+list-style-type: none;
+display: inline-block;	
+padding: 1% 0%;
+
+	
+}

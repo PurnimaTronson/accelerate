@@ -40,19 +40,23 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+	
+	
+    register_post_type( 'services',
+        array(
+            'labels' => array(
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Services' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'services' ),
+        )
+    );	
+		
+	
 }
+
 add_action( 'init', 'create_custom_post_types' );
 
 
-function create_post_type() {
-  register_post_type( 'services',
-    array(
-      'labels' => array(
-        'name' => __( 'Services' ),
-        'singular_name' => __( 'Services' )
-      ),
-      'public' => true,
-      'has_archive' => true,
-    )
-  );
-}add_action( 'init', 'create_post_type' );

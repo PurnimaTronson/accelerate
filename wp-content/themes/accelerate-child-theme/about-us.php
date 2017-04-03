@@ -21,8 +21,10 @@ get_header(); ?>
 		
 			<?php while ( have_posts() ) : the_post();
 			
-			$service_title = get_field('service-title');
-			$service_image = get_field('service-image');
+			$service_title = get_field('service_title');
+			$service_image = get_field('service_image');
+			$service_description = get_field('service_description');
+
 			
 			 ?>
 			
@@ -36,8 +38,7 @@ get_header(); ?>
 			
 			
 			
-			<h2><?php the_title(); ?></h2>
-				<?php the_content(); ?>
+			
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
@@ -50,29 +51,41 @@ get_header(); ?>
 
 <section class="recent-posts">
 	<div class="site-content">
-	  <div class="about-services">
+	  <div class="our-services">
    <h4>Our Services</h4>
    <p>We take pride in our clients and the content we create for them. 
 Here’s a brief overview of our offered services.</p>
+		</div>
+		
+		<div class="individual-services">
    
-    <?php query_posts('posts_per_page=4&tag=about'); ?>
-     <?php while ( have_posts() ) : the_post(); 
-      
-      		$image_1 = get_field("image_1"); ?>
-		  
-		       	<?php echo wp_get_attachment_image($image_1, $size); 
-
-		  
+    <?php query_posts('post_type=services'); ?>
+     <?php while ( have_posts() ) : the_post();
+      		$service_image = get_field("service_image");
+		   
 		  ?>
+		         <h2><?php the_title(); ?></h2>
+		  
+		       	<?php echo wp_get_attachment_image($service_image, $size); 
+		  ?>
+
       
-       <h2><?php the_title(); ?></h2>
        <?php the_excerpt(); ?> 
-       <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
+     
      <?php endwhile; ?> 
     <?php wp_reset_query(); ?>
    </div>
  
 	</div>
+</section>
+
+<section>
+
+<ul class="contact-button">
+	
+	<li><h3>Interested in working with us?</h3></li>
+	<li><a class="button" href="#">Contact Us</a></li>
+	</ul>
 </section>
 
 
