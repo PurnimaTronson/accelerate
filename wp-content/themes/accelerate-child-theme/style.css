@@ -413,6 +413,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	
 	border-top: 1px solid #ccc;
 	margin: 0% 23%;
+	clear: both;
 }
 
 
@@ -421,6 +422,48 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 list-style-type: none;
 display: inline-block;	
 padding: 1% 0%;
+
+	
+}
+
+.all-services h2, .all-services p{
+	
+	
+	width: 60%;
+	
+	
+}
+
+.all-services{
+	
+	margin: 0% 15%;
+	
+	
+}
+
+.right{
+	
+	float: right;
+	width: 30%;
+	
+}
+
+.left{
+	
+	float: left;
+	
+}
+
+.service-image-right{
+	
+		float: right;
+
+}
+
+
+.service-image-left{
+	
+		float: left;
 
 	
 }

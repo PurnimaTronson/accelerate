@@ -21,9 +21,21 @@ get_header(); ?>
 		
 			<?php while ( have_posts() ) : the_post();
 			
-			$service_title = get_field('service_title');
-			$service_image = get_field('service_image');
-			$service_description = get_field('service_description');
+			$service_1 = get_field('service_1');
+			$service_2 = get_field('service_2');			
+			$service_3 = get_field('service_3');
+			$service_4 = get_field('service_4');
+			$service_image_1 = get_field('service_image_1');
+			$service_image_2 = get_field('service_image_2');
+			$service_image_3 = get_field('service_image_3');
+			$service_image_4 = get_field('service_image_4');
+
+
+
+			
+			
+			
+			$service_description = get_field('service_description_1');
 
 			
 			 ?>
@@ -52,21 +64,20 @@ get_header(); ?>
 <section class="recent-posts">
 	<div class="site-content">
 	  <div class="our-services">
-   <h4>Our Services</h4>
-   <p>We take pride in our clients and the content we create for them. 
-Here’s a brief overview of our offered services.</p>
+   <h4><?php the_title(); ?></h4>
+   <p><?php the_content(); ?></p>
 		</div>
 		
 		<div class="individual-services">
    
-    <?php query_posts('post_type=services'); ?>
+   <?php query_posts('post_type=services'); ?>
      <?php while ( have_posts() ) : the_post();
-      		$service_image = get_field("service_image");
+      		$service_image_1 = get_field("service_image_1");
 		   
 		  ?>
 		         <h2><?php the_title(); ?></h2>
 		  
-		       	<?php echo wp_get_attachment_image($service_image, $size); 
+		       	<?php echo wp_get_attachment_image($service_image_1, $size); 
 		  ?>
 
       
@@ -74,6 +85,8 @@ Here’s a brief overview of our offered services.</p>
      
      <?php endwhile; ?> 
     <?php wp_reset_query(); ?>
+    
+    
    </div>
  
 	</div>
