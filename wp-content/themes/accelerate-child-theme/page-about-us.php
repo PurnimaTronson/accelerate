@@ -44,6 +44,21 @@ get_header(); ?>
 
 </section>
 
+<section class="our-services">
+		<?php while ( have_posts() ) : the_post();
+		
+			
+			 ?>
+			 <h4><?php the_title(); ?></h4>
+			 <?php the_content(); ?>
+			
+	
+	<?php endwhile; // end of the loop. ?>
+	
+	
+	
+</section>
+
 
 
 <section>
@@ -66,58 +81,82 @@ get_header(); ?>
 
 	
 	?>
-	        <div class="all-services">		         
-	         		         <div class="align-right">
-	         		         <h2><?php echo $service_1; ?></h2>
-	         		         <h2><?php echo $service_3; ?></h2>	         		         
-	         		         <p><?php echo $service_description_1; ?></p>
-	         		         <p><?php echo $service_description_3; ?></p>
-
-	         		         </div>
-	         		         
-	         		         <div class="align-left">
-	         		         <h2><?php echo $service_2; ?></h2>
-	         		         <h2><?php echo $service_4; ?></h2>
-	         		         <p><?php echo $service_description_2; ?></p>
-	         		         <p><?php echo $service_description_4; ?></p>
-	         		         
-	         		         
-	         		         </div>
-	         		         
-	         		    
-	      <div class="left">
-		          <?php $service_image_1 = get_field("service_image_1"); ?>
+	        <div class="all-services">	
+         		         <div class="content-strategy">
+         		         
+         		          <div class="image-left">  	
+         		         <?php $service_image_1 = get_field("service_image_1"); ?>
 		             <?php echo wp_get_attachment_image($service_image_1, $size); 
 				
 		  ?>
-		   
-		       	 <?php $service_image_3 = get_field("service_image_3"); ?>
-		       	 <?php echo wp_get_attachment_image($service_image_3, $size); 
-		  ?>	
-	
-		
-		  
-		  </div>
-		  <!--End of image-align-->
-		  
-		  
-		  <div class="right">
-		  
-		   <?php $service_image_2 = get_field("service_image_2"); ?>
+       		         </div> 
+        		         
+         		         
+         		         <div class="text-left">
+         		          <h2><?php echo $service_1; ?></h2>
+						  <p><?php echo $service_description_1; ?></p>
+       		         	</div>
+        		         	
+         		         </div>
+         		         	  
+				
+         		         <div class="influencer-mapping">
+        		         	       	
+							<div class="text-left">
+         		         	<h2><?php echo $service_2; ?></h2>       	
+         		         	<p><?php echo $service_description_2; ?></p> 
+      		         	    </div>
+      		         	    
+      		         	    
+      		         	    <div class="image-left">
+       		         	    
+        		         	   <?php $service_image_2 = get_field("service_image_2"); ?>
 		  <?php echo wp_get_attachment_image($service_image_2, $size); 
-		  ?>
-	       		   
-		       
-		  
-      	 <?php $service_image_4 = get_field("service_image_4"); ?>
+		  ?>       	
+        		         	</div>     	
+         		         	       	
+         		         </div>  	
+				
+         		              
+				<div class="social-media">
+      		         
+      		         
+      		          <div class="image-left">
+         		         <?php $service_image_3 = get_field("service_image_3"); ?>
+		       	 		<?php echo wp_get_attachment_image($service_image_3, $size); 
+		  ?>	          	         	
+         		     </div>   
+       		         
+       		           <div class="text-left">      
+         		                 	    	         	    	         	
+         		        <h2><?php echo $service_3; ?></h2>	         		         
+	         		    <p><?php echo $service_description_3; ?></p>
+	         		    </div>  
+       		         
+        		         
+        		               	         	
+         		
+				</div>         	         
+	         		        
+	         		        
+	         		        <div class="design-dev">
+	         		        
+	         		         <div class="text-left">
+	         		          <h2><?php echo $service_4; ?></h2>
+	         		         <p><?php echo $service_description_4; ?></p>
+	         		         
+	         		         	</div>
+	         		         
+	         		         <div class="image-left">  
+	         		         <?php $service_image_4 = get_field("service_image_4"); ?>
 		             <?php echo wp_get_attachment_image($service_image_4, $size); 
 		  ?>	
+								 </div>
 		  
 		  
+		  </div>
 		  
-				</div>
-		  
-		  
+	         	
 
    </div> 
        
