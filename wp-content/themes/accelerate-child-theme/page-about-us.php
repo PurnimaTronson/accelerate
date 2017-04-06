@@ -25,18 +25,8 @@ get_header(); ?>
 			
 			 ?>
 			
-			<div>
-				
-				<h3 class="about-hero"><span>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile. </h3>
-				
-			
-			</div>
-			
-			
-			
-			
-			
-			<?php endwhile; // end of the loop. ?>
+			<h3 class="about-hero"><span>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile. </h3>
+<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
@@ -94,26 +84,29 @@ get_header(); ?>
          		         
          		         <div class="text-left">
          		          <h2><?php echo $service_1; ?></h2>
-						  <p><?php echo $service_description_1; ?></p>
-       		         	</div>
+         		          <p><?php echo $service_description_1; ?> </p>
+</div>
         		         	
          		         </div>
          		         	  
 				
          		         <div class="influencer-mapping">
         		         	       	
-							<div class="text-left">
-         		         	<h2><?php echo $service_2; ?></h2>       	
-         		         	<p><?php echo $service_description_2; ?></p> 
-      		         	    </div>
-      		         	    
-      		         	    
-      		         	    <div class="image-left">
+						   <div class="text-left">
+         		         	<h2><?php echo $service_2; ?></h2>
+         		         	<p><?php echo $service_description_2; ?> </p>
+</div>
+    						<div class="image-right">
        		         	    
         		         	   <?php $service_image_2 = get_field("service_image_2"); ?>
-		  <?php echo wp_get_attachment_image($service_image_2, $size); 
+		  						<?php echo wp_get_attachment_image($service_image_2, $size); 
 		  ?>       	
-        		         	</div>     	
+        		         	</div>    
+
+</div>
+      		         	    
+      		         	    
+      		         	 	
          		         	       	
          		         </div>  	
 				
@@ -127,11 +120,12 @@ get_header(); ?>
 		  ?>	          	         	
          		     </div>   
        		         
-       		           <div class="text-left">      
+	              <div class="text-left">      
          		                 	    	         	    	         	
-         		        <h2><?php echo $service_3; ?></h2>	         		         
-	         		    <p><?php echo $service_description_3; ?></p>
-	         		    </div>  
+       		        <h2><?php echo $service_3; ?></h2>
+       		        <p><?php echo $service_description_3; ?> </p>
+</div>
+</div>  
        		         
         		         
         		               	         	
@@ -143,22 +137,23 @@ get_header(); ?>
 	         		        
 	         		         <div class="text-left">
 	         		          <h2><?php echo $service_4; ?></h2>
-	         		         <p><?php echo $service_description_4; ?></p>
-	         		         
-	         		         	</div>
-	         		         
-	         		         <div class="image-left">  
+	         		          <p><?php echo $service_description_4; ?> </p>
+</div>
+
+
+	         <div class="image-left">  
 	         		         <?php $service_image_4 = get_field("service_image_4"); ?>
 		             <?php echo wp_get_attachment_image($service_image_4, $size); 
 		  ?>	
 								 </div>
-		  
-		  
-		  </div>
-		  
-	         	
 
-   </div> 
+
+</div>
+	         		         
+	         	
+		  
+
+	
        
      
      <?php endwhile; ?> 
