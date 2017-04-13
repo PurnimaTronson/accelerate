@@ -61,8 +61,7 @@
 
 .recent-posts{
 	
-	overflow: hidden;
-	
+
 }
 
 
@@ -100,9 +99,7 @@ p{
 
 .blog-post{
 	
-	width: 50%;
-	width: 44.75%;
-	padding-right: 50px;
+	width: 45%;
 	float: left;
 	
 }
@@ -507,4 +504,110 @@ section.our-services p{
 
 
 
+/**404 Error Page*/
 
+
+.error-page {
+    background: url(img/kirk-khan.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: 50% 50%;
+    padding-top:300px;
+	height: 500px;
+	background-color: #000;
+	
+	-webkit-background-size: contain;
+-moz-background-size: contain;
+-o-background-size: contain;
+background-size: contain;
+	
+	
+}
+
+
+.kirk-text h1, .kirk-text h2, .kirk-text p{
+	
+	color: white;
+	
+	
+}
+
+
+.kirk-text h1{
+	
+	font-size: 82px;
+	
+}
+
+.kirk-text h2{
+	
+	font-size: 40px;
+	
+}
+
+.kirk-text p{
+	
+	font-size: 20px;
+	font-weight: 100;
+	
+}
+
+/*Twitter Sidebar*/
+
+
+.widget {
+    font-size: 0.83em;
+    font-weight: 600;
+    width: 30%;
+    float: left;
+}
+
+
+h3.widget-title a{
+	
+	font-size: 15px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin-top: 0;
+	
+	
+}
+
+.widget li{
+	
+	font-size: 14px;
+	font-weight: lighter;
+	list-style-type: none;
+	margin-left: -16px;
+	padding-top: 2em;
+
+	
+}
+
+
+
+/*Newsletter Subscribe*/
+
+input{
+    -webkit-appearance: button;
+    cursor: pointer;
+    color: white;
+    margin: 4px 0px;
+    padding: .75em 3.15em;
+    float: none;
+}
+
+input.signup{
+  
+    margin: 0px;
+	margin-top: 4px;
+	padding-bottom: 0px;
+	float: none;
+}
+
+input[type="submit"] {
+
+    padding: 0em 3.15em;
+
+}

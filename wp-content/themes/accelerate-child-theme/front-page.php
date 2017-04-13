@@ -72,9 +72,8 @@ get_header(); ?>
 
 
 
-	
 
-<section class="recent-posts">
+<section>
 	<div class="site-content">
 	  <div class="blog-post">
    <h4>From the Blog</h4>
@@ -87,8 +86,34 @@ get_header(); ?>
     <?php wp_reset_query(); ?>
    </div>
  
+	
+	
+
+	
+	
 	</div>
+	<!--end site content-->
+	
+
+	
 </section>
+
+
+
+	<div class="twitter-sidebar">
+
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+
+	
+	
+</div>
+
+<?php endif; ?>
+ 
+
+</div>	
 
 
 <?php get_footer(); ?>
