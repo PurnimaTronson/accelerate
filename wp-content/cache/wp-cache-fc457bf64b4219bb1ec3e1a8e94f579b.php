@@ -11,7 +11,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>MailChimp Campaign | </title>
+	<title></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="http://localhost:8888/accelerate/xmlrpc.php">
 	<!--[if lt IE 9]>
@@ -50,12 +50,7 @@ img.emoji {
 <link rel='https://api.w.org/' href='http://localhost:8888/accelerate/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost:8888/accelerate/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost:8888/accelerate/wp-includes/wlwmanifest.xml" /> 
-<link rel='prev' title='Zurb Foundation Project' href='http://localhost:8888/accelerate/case-studies/zurb__trashed/' />
 <meta name="generator" content="WordPress 4.7.3" />
-<link rel="canonical" href="http://localhost:8888/accelerate/case-studies/mailchimp-campaign/" />
-<link rel='shortlink' href='http://localhost:8888/accelerate/?p=47' />
-<link rel="alternate" type="application/json+oembed" href="http://localhost:8888/accelerate/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2Fcase-studies%2Fmailchimp-campaign%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://localhost:8888/accelerate/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2Fcase-studies%2Fmailchimp-campaign%2F&#038;format=xml" />
 
 <script type="text/javascript">
 var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};
@@ -73,7 +68,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 </style>
 </head>
 
-<body class="case_studies-template-default single single-case_studies postid-47 logged-in admin-bar no-customize-support">
+<body class="home blog logged-in admin-bar no-customize-support">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
@@ -91,49 +86,146 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">
-
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
-		
+<section class="home-page">
+<div class="site-content">
+					<div class='homepage-hero'>
+				
+				<h1>Accelerate Your Marketing</h1>
+				<h2>Save Time. Increase sales. Make customers happier.</h2>
 			
-<article class="case-study">		
+				<a class="button" href="http://localhost:8888/accelerate/blog">View Our Work</a>
+			</div>
+				
+
+	</div><!-- .container -->
+</section><!-- .home-page -->
+
+		<section>
+		
+			<div class="featured-work">
+		
+		<ul class="homepage-featured-work">
+		<div class="site-content">
 			
-	<aside class="case-study-sidebar">
-		<h2>MailChimp Campaign</h2>
-		<h5>Content Strategy, Design &amp; Development</h5>
-		<h6>Client: Mailchimp</h6>
+			<h4>Featured Work</h4>
+			
+	            <li class="individual-featured-work">
+      <figure>
+      	<img width="300" height="221" src="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-1-300x221.png" class="attachment-medium size-medium" alt="" srcset="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-1-300x221.png 300w, http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-1.png 608w" sizes="(max-width: 300px) 100vw, 300px" />	
+      
+      </figure>
+      
+       <h6><a href="http://localhost:8888/accelerate/case-studies/mailchimp-campaign/">MailChimp Campaign</a></h6>
+			</li>
+
+    
+      
+           <li class="individual-featured-work">
+      <figure>
+      	<img width="300" height="221" src="http://localhost:8888/accelerate/wp-content/uploads/2017/03/zurb-1-300x221.jpg" class="attachment-medium size-medium" alt="" srcset="http://localhost:8888/accelerate/wp-content/uploads/2017/03/zurb-1-300x221.jpg 300w, http://localhost:8888/accelerate/wp-content/uploads/2017/03/zurb-1.jpg 514w" sizes="(max-width: 300px) 100vw, 300px" />	
+      
+      </figure>
+      
+       <h6><a href="http://localhost:8888/accelerate/case-studies/zurb__trashed/">Zurb Foundation Project</a></h6>
+			</li>
+
+    
+      
+           <li class="individual-featured-work">
+      <figure>
+      	<img width="300" height="221" src="http://localhost:8888/accelerate/wp-content/uploads/2017/03/coroloft-1-300x221.jpg" class="attachment-medium size-medium" alt="" srcset="http://localhost:8888/accelerate/wp-content/uploads/2017/03/coroloft-1-300x221.jpg 300w, http://localhost:8888/accelerate/wp-content/uploads/2017/03/coroloft-1.jpg 514w" sizes="(max-width: 300px) 100vw, 300px" />	
+      
+      </figure>
+      
+       <h6><a href="http://localhost:8888/accelerate/case-studies/coroloft/">Coroflot Advertising</a></h6>
+			</li>
+
+    
+      
+      
+    	</ul>		
+			
+			
+			
+		</div>
 		
-		<p>This is a project I made for this company for this. Here is the early staget startup that I helped design and do front-end and back-end dev for.</p>
-<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="http://localhost:8888/accelerate/case-studies/mailchimp-campaign/" data-a2a-title="MailChimp Campaign"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2Fcase-studies%2Fmailchimp-campaign%2F&amp;linkname=MailChimp%20Campaign" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2Fcase-studies%2Fmailchimp-campaign%2F&amp;linkname=MailChimp%20Campaign" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2Fcase-studies%2Fmailchimp-campaign%2F&amp;linkname=MailChimp%20Campaign" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"></a></div></div>		
-		<p><a href="https://mailchimp.com/">Site Link</a></p>
-
-
-	</aside>
-
-
-
-
-<div class="case-study-images">
-
-		<img width="608" height="448" src="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-1.png" class="attachment-full size-full" alt="" srcset="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-1.png 608w, http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-1-300x221.png 300w" sizes="(max-width: 608px) 100vw, 608px" /> 
 		
-			<img width="606" height="817" src="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-2.png" class="attachment-full size-full" alt="" srcset="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-2.png 606w, http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-2-223x300.png 223w" sizes="(max-width: 606px) 100vw, 606px" />		
-			<img width="606" height="1211" src="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-3.png" class="attachment-full size-full" alt="" srcset="http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-3.png 606w, http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-3-150x300.png 150w, http://localhost:8888/accelerate/wp-content/uploads/2017/03/mc-thumbnail-3-512x1024.png 512w" sizes="(max-width: 606px) 100vw, 606px" />		
+		
+		
+		
+	</div>
+	
+</section>
+
+
+
+
+<section>
+	<div class="site-content">
+	  <div class="blog-post">
+   <h4>From the Blog</h4>
+                <h2>Make More Money with Your Blog</h2>
+       <p>If you are a blogger, chances are you spend hours upon hours creating content. You search second hand shops for props, you take classes on photography, and you sign up for social media webinars. But what if you could PAID for all the hours you spend curating your blog? Testing this again. Adding more to [&hellip;]</p>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="http://localhost:8888/accelerate/2017/03/14/hello-world/" data-a2a-title="Make More Money with Your Blog"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2F2017%2F03%2F14%2Fhello-world%2F&amp;linkname=Make%20More%20Money%20with%20Your%20Blog" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2F2017%2F03%2F14%2Fhello-world%2F&amp;linkname=Make%20More%20Money%20with%20Your%20Blog" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2F2017%2F03%2F14%2Fhello-world%2F&amp;linkname=Make%20More%20Money%20with%20Your%20Blog" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"></a></div></div> 
+       <a class="read-more-link" href="http://localhost:8888/accelerate/2017/03/14/hello-world/">Read More <span>&rsaquo;</span></a>
+      
+       </div>
+ 
+	
 	
 
-</div>
-		
-		</article>
-			
-		
-		
-		
-		
-			
+	
+	
+	</div>
+	<!--end site content-->
+	
 
-			
-		</div><!-- #content -->
-	</div><!-- #primary -->
+	
+</section>
+
+
+
+	<div class="twitter-sidebar">
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="pi_simpletwittertweets-2" class="widget PI_SimpleTwitterTweets"><h3 class="widget-title"><a target="_blank" href="https://twitter.com/purnima_prasad">Recent Tweets</a></h3>
+			<ul class="tweets">
+								<li>Waiting for Twitter... Once Twitter is ready they will display my Tweets again.</li>
+						</ul>
+
+			</aside><aside id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h3 class="widget-title">Newsletter</h3><script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.1.1 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-160" method="post" data-id="160" data-name="Subscribe to Our Newsletter" ><div class="mc4wp-form-fields"><div>
+	<label>Email address: </label>
+</div>
+<div>
+	<input type="email" name="EMAIL" placeholder="Your email address" required />
+</div>
+
+<div class="signup-button">
+	<input class="signup" type="submit" value="Sign up" />
+</div><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1493013898" /><input type="hidden" name="_mc4wp_form_id" value="160" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></aside>
+	
+	
+</div>
+
+ 
+
+</div>	
+
 
 
 		</div><!-- #main -->
@@ -160,8 +252,51 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 
-	<script type='text/javascript' src='http://localhost:8888/accelerate/wp-includes/js/admin-bar.min.js?ver=4.7.3'></script>
+	<script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><script type='text/javascript' src='http://localhost:8888/accelerate/wp-includes/js/admin-bar.min.js?ver=4.7.3'></script>
 <script type='text/javascript' src='http://localhost:8888/accelerate/wp-includes/js/wp-embed.min.js?ver=4.7.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://localhost:8888/accelerate/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.1.1'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='http://localhost:8888/accelerate/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.1.1'></script>
+<![endif]-->
 	<!--[if lte IE 8]>
 		<script type="text/javascript">
 			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
@@ -195,7 +330,8 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 		<li id="wp-admin-bar-themes"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/themes.php">Themes</a>		</li>
 		<li id="wp-admin-bar-widgets"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/widgets.php">Widgets</a>		</li>
 		<li id="wp-admin-bar-menus"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/nav-menus.php">Menus</a>		</li></ul></div>		</li>
-		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2Fcase-studies%2Fmailchimp-campaign%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/update-core.php" title="1 Plugin Update"><span class="ab-icon"></span><span class="ab-label">1</span><span class="screen-reader-text">1 Plugin Update</span></a>		</li>
 		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text">0 comments awaiting moderation</span></a>		</li>
 		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost:8888/accelerate/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
 		<li id="wp-admin-bar-new-post"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/post-new.php">Post</a>		</li>
@@ -203,17 +339,16 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
 		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/post-new.php?post_type=page">Page</a>		</li>
 		<li id="wp-admin-bar-new-case_studies"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/post-new.php?post_type=case_studies">Case Study</a>		</li>
 		<li id="wp-admin-bar-new-services"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/post-new.php?post_type=services">Services</a>		</li>
-		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
-		<li id="wp-admin-bar-edit"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/post.php?post=47&#038;action=edit">Edit Post</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/user-new.php">User</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
 		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost:8888/accelerate/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
 		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost:8888/accelerate/wp-admin/profile.php">Howdy, admin<img alt='' src='http://1.gravatar.com/avatar/4e3630f200dc8221ce57014f27c97b86?s=26&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4e3630f200dc8221ce57014f27c97b86?s=52&amp;d=mm&amp;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
 		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost:8888/accelerate/wp-admin/profile.php"><img alt='' src='http://1.gravatar.com/avatar/4e3630f200dc8221ce57014f27c97b86?s=64&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4e3630f200dc8221ce57014f27c97b86?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>admin</span></a>		</li>
 		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost:8888/accelerate/wp-admin/profile.php">Edit My Profile</a>		</li>
-		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost:8888/accelerate/wp-login.php?action=logout&#038;_wpnonce=cd600a692a">Log Out</a>		</li></ul></div>		</li></ul>			</div>
-						<a class="screen-reader-shortcut" href="http://localhost:8888/accelerate/wp-login.php?action=logout&#038;_wpnonce=cd600a692a">Log Out</a>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost:8888/accelerate/wp-login.php?action=logout&#038;_wpnonce=179bcfffe3">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost:8888/accelerate/wp-login.php?action=logout&#038;_wpnonce=179bcfffe3">Log Out</a>
 					</div>
 
 		</body>
 </html>
-<!-- Dynamic page generated in 0.411 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2017-04-18 05:44:26 -->
+<!-- Dynamic page generated in 0.608 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-04-24 06:04:58 -->
